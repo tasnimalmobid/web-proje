@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../login/login.css">
+    <title>Kişisel</title>
+</head>
+<body>
+    <div>
+      <header class="container">
+        <h1>Hoş geldiniz, sizi özledik</h1>
+        <p>hesabın yok mu<a href="../createAccount/createAccount.html" style="color:#2CB674"> Yeni hesap oluştur</a>.</p>
+        <img src="../assets/img/login.svg">
+    
+        </header>
+        <div>
+            <div class="form">      
+            <!--Email input and icon-->
+            <div class="mailIcon">
+              <label for="email">Email</label>
+              <input id="email" type="email" placeholder="Enter Your Email" name="email" required>
+              <img class="mailimg" src="../assets/img/email.svg">
+              </div>
+              <!-- password Input and Icons-->
+              <div class="pswIcon">
+              <label for="password">Password</label>
+              <input id="password" type="password" placeholder="Enter Your Password" name="password" required>
+              <img  class="pswimg" src="../assets/img/password.svg">
+              <img class="hidePsw" src="../assets/img/hideEye.svg">
+            </div>
+            <label id="incorrctMsg" style="display: none; color: red;">yanlış eposta adresi veya şifre</label>
+          </div>
+          <button type="" class="login-btn">giriş yap</button>
+        </div> 
+    </div>
+ 
+</body>
+</html>
